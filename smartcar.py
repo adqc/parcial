@@ -25,7 +25,7 @@ class Computador:
             elif prob>0.5:
                 i.virar_derecha()
         
-class Faro:
+class Faro:  
     def __init__(self):
         self.direccional_derecha_prendida = False
         self.direccional_izquierda_prendida = False
